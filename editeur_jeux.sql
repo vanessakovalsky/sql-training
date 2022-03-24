@@ -1,0 +1,92 @@
+CREATE TABLE mytable(
+   Nom               VARCHAR(25) NOT NULL PRIMARY KEY
+  ,Fondateur         VARCHAR(76)
+  ,Annee_de_creation INTEGER 
+  ,Siege             VARCHAR(37)
+);
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Gigamic','St�phane, Ludovic, et Jean-Christophe Gires',1991,'Wimereux (Boulogne-sur-mer)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Sorry we are French','Emmanuel Beltrando',2017,NULL);
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Studio H','Hicham Ayoub Bedran',2019,'Paris');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Abysse Corp','Xavier Sartoris, Ren� Gr�ville',1999,'Grand-Couronne (Rouen)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Bioviva �ditions','Jean-Thierry Winstel',1996,'Montpellier');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Djeco','V�ronique Ceillier',1954,'Paris');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Dujardin','Edmond Dujardin',1951,'Cestas (Bordeaux)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Ferriot Cric','Famille Ferriot',1928,'Mussy-sur-Seine');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Lansay','Elie Azoulai',1972,'Argenteuil (Val-d''Oise)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('M�gableu','Pascal Esnol',1994,'Randonnai (Orne)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('TF1 Games','TF1',2001,'Paris');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Ankama','Ankama',2006,'Roubaix (Nord)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Asyncron','Olivier Chanry, Thierry Mattray, Franck Saverys',2008,'Tourcoing (Nord)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('ATM Gaming','Benjamin Brissy, 
+Jean-Baptiste Campion',2018,'Paris');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Bankiiiz Editions','Bertrand Arpino, St�phane Escapa',2015,'Lyon');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Blam�!','S�bastien Gaspard, Christophe Mercier',2015,'Sillingy (Haute-Savoie)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Blue Cocker','Alain Balay',2013,'Toulouse');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Blue Orange (Europe)','Timoth�e Leroy',2005,'Pont-�-Mousson (Meurthe-et-Mos.)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Bombyx','Erwan Hasc�et, Lo�g Hasc�et',2011,'Quimper');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Capsicum Games','Didier Dincher',2013,'Paris');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Catch Up Games','S�bastien Kihm, Cl�ment Milker',2014,'Lyon');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Chouic','Antoine Habert, Romuald Percereau',2015,'Nantes');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Cocktail Games','Matthieu d''Epenoux',2001,'Versailles');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Cosmoludo Games','Tom & Pierre Delahaye',2019,'Soudorgues - C�vennes');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('D�b�cle Jeux','Emmanuel Souli� et Julien Teilhet',2018,'Saint-Thib�ry');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Devil Pig',NULL,2013,'Paris');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Disto Studio','Maria Paloma Sanchez et Luc Anuszewski',2019,'Strasbourg');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Elements Editions','C�dric Duwelz',2013,'Monaco');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Elemon Games','Joannes Roussel',2013,'Paris');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Euphoria Games',NULL,NULL,'Lille');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Ferti','C�dric Huet',2001,'M�rignac (Bordeaux)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Flip Flap','Cyril Blondel',2013,NULL);
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Funforge','Philippe Nouhra',2008,'Paris');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Grosso Modo','Guillaume Goujon, Arnaud Pierru',2011,'Brunoy (Essonne)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Grrre Games','C�line et Florian Grenier',2018,'Grenoble (Is�re)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Hexasim','Christophe Gentil-Perret',2008,'Annecy');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Hiboutatillus','Louis Roudaut, Thibault Lorcy',2014,'Paris');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Holy Grail Games','Jamie Johnson, Olivier Melison, Vincent Dutrait',2016,'Nancy');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Hubvious Games','Matthieu Perreard, C�dric Sanchez',2017,'Lyon');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Id&aL','Igor Davin, Antoine Laboureur',2008,'Montpellier (H�rault)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Iello','C�dric Barb�, Patrice Boulet',2004,'Heillecourt (Nancy)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Ilopeli','Arnaud Urbon',2011,'Voisins-le-Bretonneux (Yvelines)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('In Ludo Veritas','Christophe Hermier',2007,'Paris');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Jeux Opla','Florent Toscano',2010,'Lyon');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Jocus','Jean-Pierre Nicolas',2015,'Bordeaux');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('La Boite de Jeu','Benoit Bannier, Benjamin Carayon, Timoth�e Gibelin',2013,'Lyon');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('La Haute Roche','Sylvie Barc, Dominique Granger',2002,'Ladignac-le-Long
+(Haute-Vienne)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Le Droit de perdre','Fran�ois Lang, Fabien Bleuze, Yves Hirschfeld',2007,'Antony (Hauts-de-Seine)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Les Jeux du Lac�[archive]','Franck R�gnier',2015,'Annecy (Haute Savoie)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Libellud','R�gis Bonness�e',2008,'Poitiers');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Ludically','Christophe Boelinger, Jean-Charles Mourey',2009,'Valbonne (Nice)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Ludonaute','C�dric et Anne-C�cile Lefebvre',2010,'Istres (Bouches-du-Rh�ne)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Lui-m�me','Philippe des Palli�res',1999,'St-P�re-en-Retz (Loire-Atlantique)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Lumberjacks Studio','Antoine Roffe',2016,'Vendes');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Matagot','Hicham Ayoub-Bedran',2005,'Paris');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Morning','Tim Dumain, Valentin Famose',2011,'Toulouse');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Nuts! Publishing','Florent Coupeau, Claude Le Roy, Arnaud Moyon, Thomas Pouchin, Nicolas Rident',2011,'Quimper (Finist�re)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('OldChap Games','Paul-Adrien Tournier, Jean-Baptiste Fremaux, Thomas Luzurier',2011,'Toulouse');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Origames','Guillaume Gille-Naves, Igor Polouchine, Rodolphe Gilbart',2010,'Boulogne-Billancourt
+(Hauts-de-Seine)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Oya','Patrick Ruttner',1995,'Paris');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Paille �ditions','Yves Renou',2000,'Le Vigen (Limoges)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('PARIA','David et Alexandre Rousseau',2019,'Ch�teauroux');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Pink Monkey Games','Julien Percot',2016,'Vigneux-de-Bretagne');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Purple Brain Cr�ations','Benoit Forget',2013,'Parthenay (Deux-S�vres)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('R�cr�adim','C�cile Bala�',2009,'Viroflay (Yvelines)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Robin Red Games�[archive]','Pascal Boucher',2012,'Allassac (Corr�ze)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Runes Editions','R�mi Gruber',2014,'Solers (Seine-et-Marne)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Sentosph�re','V�ronique Debroise',1989,'Paris');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Serious Poulp','Ludovic Roudy, Bruno Sautter',2010,'Paris');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Subverti','Yoann Brogol',2018,'Toulouse');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Superlude','Antoine Davrou',2013,'Yerres (Essonne)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Super Meeple','Charles Perret, Alexandre Pierru, Arnaud Pierru',2015,'Paris');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Sweet November','Didier Jacob�e, Patrick Rieder',2010,'Ch�teaudun (Eure-et-Loir)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Zo� Yat�ka Cr�ations','Jean-Luc et Andr�a Renaud',2010,'Saint-Michel-sur-Orge (Essonne)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Asmodee','Marc Nun�s, Philippe Mouret, Croc',1995,'Guyancourt (Versailles)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Days of Wonder','Eric Hautemont, Mark Kaufmann',2002,'Paris');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Edge Entertainment','Gilles Garnier',2004,'St-Jean (Toulouse)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Space Cowboys','Asmodee',2013,'Buc (Yvelines)');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Ystari','Cyril Demaegd',2003,'Paris');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Fantasy Flight Games','Christian T. Petersen',NULL,'Roseville, Minnesota');
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Mayfair Games',NULL,1982,NULL);
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Plaid Hat Games',NULL,NULL,NULL);
+INSERT INTO mytable(Nom,Fondateur,Annee_de_creation,Siege) VALUES ('Z-Man Games','Zev Schlasinger',1999,'Carmel, New York');

@@ -115,7 +115,7 @@ Threads: 7  Questions: 467  Slow queries: 0  Opens: 177  Flush tables: 1  Open t
     * Connection name : 'Local'
     * Server Address: localhost
     * Port : 3306
-    * Database : 
+    * Database : mysql
     * Username : admin
 * -> Laisser les autres champs avec leur valeurs par défaut 
 * Cliquer en bas de la page sur Test Connection, votre mot de passe vous est demander, entrer le et appuyer sur `entrée`

@@ -18,4 +18,4 @@ Cet exercice a pour objectif :
     * Lister les jeux, avec leur nom, l'année de sortie, et leur éditeur, trier par année de sortie
     * Lister les jeux (toutes les colonnes) sortis avant 2020 
     * Lister les jeux de l'éditeur 'Gigamic'
-    * Lister les jeux de l'éditeur 'Days of Wonders' sorti avant 2015
+    * Lister les jeux de l'éditeur 'Repos Production' sorti avant 2015

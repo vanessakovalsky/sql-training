@@ -6,12 +6,12 @@ Cet exercice a pour objectifs :
 
 ## Pré-requis
 
-* Copier le contenu du fichier editeur.sql dans uen requête et exécuter la requête
+* Copier le contenu du fichier editeur_jeux.sql dans une requête et exécuter la requête
 
 ## Jointures
 
 * Ecrire les requêtes pour obtenir les informations suivantes : 
-    * Lister les jeux pour l'éditeur Gigamic et l'éditeur Days Of Wonders en rajoutant les informations de la table éditeur (pays, taille) aux informations de la table jeux
+    * Lister les jeux pour l'éditeur 'Gigamic' et l'éditeur 'Repos Production' en rajoutant les informations de la table éditeur (annee de creation, siege, fondateurs) aux informations de la table jeux
     * Lister tous les jeux, et pour ceux dont l'editeur existe dans la table editeur récupérer les informations sur l'éditeur 
 
 
