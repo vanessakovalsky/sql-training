@@ -129,3 +129,25 @@ SHOW DATABASES;
 ```
 * Un autre panneau avec une liste de base de données doit apparaître à droite
 * VOtre environnement est maintenant prêt à être utilisé pour faire des requêtes
+
+## Installation d'un client SQLElectron
+
+* Dans la VM ouvrir un navigateur et aller sur ce lien : https://github.com/sqlectron/sqlectron-gui/releases/download/v1.38.0-alpha.3/sqlectron_1.38.0-alpha.3_amd64.deb 
+* Ouvrir un terminal puis taper (une ligne à la fois) les deux commandes suivantes :
+```
+cd Downloads
+sudo dpkg -i sqlectron_1.38.0-alpha.3_amd64.deb
+```
+* Entrer votre mot de passe et attendre la fin de l'installation
+* Aller dans Activités et chercher Sqlelectron et cliquer dessus
+* Cliquer sur Add, puis remplir les champs :
+  * Name : le nom de votre choix c'est le nom pour retrouver votre connexion
+  * Database Type : MariaDB
+  * Server Address : 
+    * Host : localhost
+    * Port : 3306
+  * User : votre identifiant d'accès à la base (celui défini avec la commande GRANT lors de la création de l'utilisateur sur le serveur)
+  * Password : votre mot de passe (celui défini avec la commande GRANT lors de la création de l'utilisateur sur le serveur)
+* Puis cliquer sur Test, si tout est OK cliquer sur Save
+* Vous revenez à la page d'accueil et vous pouvez vous connecter à votre base en cliquant sur Connect sur le bloc qui correspond à votre connexion. 
+* Vous avez alors accès à vos bases de données et à un bloc pour taper des requêtes
