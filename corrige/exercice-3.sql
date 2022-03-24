@@ -39,7 +39,7 @@ SELECT COUNT(*)
 FROM jeux 
 GROUP BY Année;
 
--- POUR ALLER PLUS LOIn
+-- POUR ALLER PLUS LOIN
 
 -- Créer une liste de jeux regroupée par année et par éditeur
 
