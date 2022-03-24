@@ -5,4 +5,4 @@ SELECT * FROM jeux WHERE Année < 2020;
 -- Lister les jeux de l'éditeur 'Gigamic'
 SELECT * FROM jeux WHERE Editeurs = 'Gigamic';
 -- Lister les jeux de l'éditeur 'Repos Production' sorti avant 2015
-SELECT * FROM jeux WHERE Editeurs = 'Repos Production' AND Année < 2015
+SELECT * FROM jeux WHERE Editeurs = 'Repos Production' AND Année < 2015;
