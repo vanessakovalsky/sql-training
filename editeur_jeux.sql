@@ -1,4 +1,4 @@
-CREATE TABLE mytable(
+CREATE TABLE editeur_jeux(
    Nom               VARCHAR(25) NOT NULL PRIMARY KEY
   ,Fondateur         VARCHAR(76)
   ,Annee_de_creation INTEGER 
