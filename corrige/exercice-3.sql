@@ -45,12 +45,11 @@ GROUP BY Année;
 
 SELECT * 
 FROM jeux 
-GROUP BY Année, éditeurs;
+ORDER BY Année, éditeurs;
 
 -- Ajouter sur cette liste les informations des éditeurs
 
 SELECT jeux.Nom as nom_jeu, editeur_jeux.* 
 FROM jeux 
 INNER JOIN editeur_jeux ON jeux.éditeurs = editeur_jeux.nom
-GROUP BY Année, éditeurs
-ORDER BY Annee_de_creation, éditeurs;
+ORDER BY Année, éditeurs
