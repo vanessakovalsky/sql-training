@@ -22,12 +22,12 @@ LEFT JOIN editeur_jeux ON jeux.Éditeurs = editeur_jeux.Nom;
 
 SELECT * 
 FROM jeux 
-GROUP BY éditeurs;
+ORDER BY éditeurs;
 
 -- Créer une liste de jeux regroupée par année de sortie
 SELECT * 
 FROM jeux 
-GROUP BY Année;
+ORDER BY Année; -- si j'utilise GROUP BY on ne garde qu'une ligne pour chaque année
 
 -- Compter pour chaque éditeur le nombre de jeux
 SELECT COUNT(*) 
