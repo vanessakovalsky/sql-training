@@ -5,13 +5,21 @@ WHERE jeux_e.éditeurs LIKE '%t%';
 
 -- Calculer le pourcentage de jeux d'un éditeur par rapport au total de jeux général
 
-SELECT COUNT(*) * 100 / (SELECT COUNT(*) FROM jeux) , éditeurs
+SELECT COUNT(*) * 100 / (SELECT COUNT(*) FROM jeux) AS pourcentage_jeux_par_editeur, éditeurs
 FROM jeux
 GROUP BY éditeurs;
 
 -- Récupérer le liste de jeux groupées par éditeur pour la liste des 10 éditeurs ayant publié le plus de jeux
 
-SELECT Nom, éditeurs FROM jeux
-where éditeurs in (
-SELECT editeurs_limit.éditeurs FROM (SELECT éditeurs FROM jeux GROUP BY éditeurs ORDER BY COUNT(Nom) DESC LIMIT 10) as editeurs_limit)
+SELECT Nom, éditeurs 
+FROM jeux
+WHERE éditeurs IN (
+    SELECT editeurs_limit.éditeurs 
+    FROM 
+        (SELECT éditeurs 
+        FROM jeux 
+        GROUP BY éditeurs 
+        ORDER BY COUNT(Nom) DESC 
+        LIMIT 10) 
+    AS editeurs_limit)
 ORDER BY éditeurs;
