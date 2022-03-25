@@ -42,7 +42,9 @@ Cet exercice a pour objectifs :
 * Nous allons maintenant utiliser SQL avec Python
 * Installer la librairie pour utiliser mariadb
 ```
-pip3 install mariadb
+sudo apt install libmariadb3 libmariadb-dev
+sudo apt install python3-pip
+sudo pip3 install mariadb
 ```
 * Créer un fichier connexion.py et mettre le code suivant en l'adaptant avec vos données de connexions : 
 ```
